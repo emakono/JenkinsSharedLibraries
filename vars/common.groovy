@@ -1,6 +1,6 @@
 def call(String stageName){
   
-  if ("${stageName}" == "Build")
+  if ("${stageName}" == "2Build")
      {
        sh "mvn clean package"
      }
